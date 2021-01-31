@@ -1,0 +1,7 @@
+print('='*20, 'ALUGANDO CARROS', '='*20)
+d = int(input('| Quantos dias alugados? '))
+km = float(input('| Quantos Km rodados? '))
+t = (d * 60) + (km * 0.15)
+print('-' * 58)
+print(f'| O valor total a pagar pelo carro alugado é: R${t:<8.2f} |')
+print('-' * 58)
